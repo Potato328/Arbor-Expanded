@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.potato328.betterarbored.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "betterarbored.refmap.json",
+  "mixins": [
+          "TileEntityTypeInitMixin"
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8"
+}

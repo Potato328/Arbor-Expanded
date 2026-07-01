@@ -25,7 +25,10 @@ public class BetterArbored {
         MinecraftForge.EVENT_BUS.register(this);
         eventBus.register(new ColorHandler());
         ModBlocks.register(eventBus);
+
+
     }
+
     private void setup(final FMLCommonSetupEvent event) {
 
     }
@@ -51,6 +54,7 @@ public class BetterArbored {
             RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_SLAB_9.get(), RenderType.cutout());
 
             RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_SUPER_BUTTON.get(), RenderType.cutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_SUPER_BUTTON2.get(), RenderType.cutout());
             //RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_CUBE_DROPPER.get(), RenderType.translucent());
             RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_STANDING_BUTTON.get(), RenderType.cutout());
 

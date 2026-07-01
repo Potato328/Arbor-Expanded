@@ -1,0 +1,9 @@
+{
+  "parent": "betterarbored:block/arbored_super_button_unpressed",
+  "textures": {
+    "case":     "betterarbored:block/superbutton/asb_corner_empty",
+    "bottom":   "betterarbored:block/superbutton/asb_bottom_1",
+    "button":   "betterarbored:block/superbutton/asb_top_normal",
+    "internals": "betterarbored:block/superbutton/asb_internals"
+  }
+}

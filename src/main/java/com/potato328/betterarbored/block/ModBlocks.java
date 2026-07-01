@@ -52,8 +52,10 @@ public class ModBlocks {
 
     //Testing Elements
     //public static final RegistryObject<Block> ARBORED_CUBE_DROPPER = registerBlock("arbored_cube_dropper", () -> new CubeDropperBlock(AbstractBlock.Properties.copy(Blocks.STONE).noOcclusion()));
-    //public static final RegistryObject<Block> ARBORED_CHAMBER_DOOR = registerBlock("arbored_chamber_door", () -> new ChamberDoorBlock(stoneCopy(MaterialColor.COLOR_BLACK).sound(SoundType.STONE).noOcclusion()));
+    public static final RegistryObject<Block> ARBORED_CHAMBER_DOOR = registerBlock("arbored_chamber_door", () -> new ChamberDoorBlock(stoneCopy(MaterialColor.COLOR_BLACK).sound(SoundType.STONE).noOcclusion()));
     public static final RegistryObject<Block> ARBORED_SUPER_BUTTON = registerBlock("arbored_super_button", () -> new SuperButtonBlock(stoneCopy(MaterialColor.COLOR_RED).sound(SoundType.STONE).noOcclusion()));
+    public static final RegistryObject<Block> ARBORED_SUPER_BUTTON2 = registerBlock("arbored_super_button2", () -> new SuperButtonBlock(stoneCopy(MaterialColor.COLOR_RED).sound(SoundType.STONE).noOcclusion()));
+
     public static final RegistryObject<Block> ARBORED_STANDING_BUTTON = registerBlock("arbored_standing_button", () -> new StandingButtonBlock(stoneCopy(MaterialColor.COLOR_RED).sound(SoundType.STONE).noOcclusion()));
 
     //Registers blocks
