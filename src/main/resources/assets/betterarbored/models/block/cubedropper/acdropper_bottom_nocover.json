@@ -1,0 +1,11 @@
+{
+  "parent": "betterarbored:block/template_acdropper_bottom",
+  "textures": {
+    "aperture": "betterarbored:block/cubedropper/acdropper_aperture",
+    "glass":    "portalmod:block/cube_dropper_glass",
+    "ribs":     "portalmod:block/cube_dropper_ribs",
+    "rim":      "betterarbored:block/cubedropper/acdropper_rim",
+    "particle": "portalmod:block/cube_dropper_aperture",
+    "rimcover": "betterarbored:block/empty"
+  }
+}

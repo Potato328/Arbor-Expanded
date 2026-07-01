@@ -1,0 +1,7 @@
+{
+  "parent": "portalmod:block/cube_part_top",
+  "textures": {
+    "side": "betterarbored:block/9/ab_panel_top_c",
+    "top": "betterarbored:block/9/ab_top_c"
+  }
+}

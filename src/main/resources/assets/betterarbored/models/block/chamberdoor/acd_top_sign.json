@@ -1,0 +1,9 @@
+{
+  "parent": "portalmod:/block/chamber_door_top_sign",
+  "textures": {
+    "middle":   "betterarbored:block/chamberdoor/acd_middle_top_sign",
+    "side"  :   "betterarbored:block/chamberdoor/acd_side_top",
+    "sign":     "betterarbored:block/chamberdoor/acd_side_top_sign",
+    "particle": "betterarbored:block/chamberdoor/acd_side_top"
+  }
+}

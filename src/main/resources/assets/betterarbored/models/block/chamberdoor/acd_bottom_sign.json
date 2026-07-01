@@ -1,0 +1,10 @@
+{
+  "parent": "portalmod:/block/chamber_door_bottom_sign",
+  "textures": {
+    "middle":   "betterarbored:block/chamberdoor/acd_middle_bottom",
+    "side":     "betterarbored:block/chamberdoor/acd_side_bottom",
+    "sign":     "betterarbored:block/chamberdoor/acd_side_bottom_sign",
+    "bottom":   "portalmod:block/chamber_door_bottom_sign",
+    "particle": "betterarbored:block/chamberdoor/acd_side_bottom_sign"
+  }
+}

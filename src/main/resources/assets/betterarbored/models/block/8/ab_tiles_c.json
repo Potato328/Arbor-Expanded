@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "side": "betterarbored:block/8/ab_tiles_c",
+    "top": "betterarbored:block/8/ab_top_c",
+    "bottom": "betterarbored:block/8/ab_tiles_c"
+  }
+}

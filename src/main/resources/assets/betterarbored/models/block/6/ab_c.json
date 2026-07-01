@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "betterarbored:block/6/ab_c",
+    "top": "betterarbored:block/6/ab_top_c",
+    "bottom": "betterarbored:block/6/ab_tiles_c"
+  }
+}

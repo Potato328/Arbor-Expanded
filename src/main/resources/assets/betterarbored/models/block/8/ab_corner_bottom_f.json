@@ -1,0 +1,9 @@
+{
+  "parent": "portalmod:block/cube_corner_bottom_tint",
+  "textures": {
+    "bottom": "betterarbored:block/8/ab_tiles_f",
+    "back": "betterarbored:block/8/ab_panel_bottom_f",
+    "left": "betterarbored:block/8/ab_panel_bottom_left_f",
+    "right": "betterarbored:block/8/ab_panel_bottom_right_f"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "portalmod:block/cube_corner_top",
+  "textures": {
+    "top": "betterarbored:block/5/ab_top_c",
+    "back": "betterarbored:block/empty",
+    "left": "betterarbored:block/empty",
+    "right": "betterarbored:block/empty"
+  }
+}

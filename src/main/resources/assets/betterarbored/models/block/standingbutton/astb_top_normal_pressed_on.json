@@ -1,0 +1,8 @@
+{
+  "parent": "portalmod:block/standing_button_top_template_pressed",
+  "textures": {
+    "cover": "betterarbored:block/standingbutton/astb_cover_normal",
+    "light": "portalmod:block/standing_button_on",
+    "base": "betterarbored:block/standingbutton/astb_base"
+  }
+}

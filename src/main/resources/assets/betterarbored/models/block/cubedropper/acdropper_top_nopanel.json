@@ -1,0 +1,12 @@
+{
+  "parent": "portalmod:block/template_cube_dropper_top",
+  "textures": {
+    "base_left":  "portalmod:block/cube_dropper_base_nopanel",
+    "base_right": "portalmod:block/cube_dropper_base_nopanel",
+    "bottom":     "betterarbored:block/cubedropper/acdropper_bottom_nopanel",
+    "inside":     "portalmod:block/cube_dropper_inside",
+    "ring_left":  "betterarbored:block/cubedropper/acdropper_ring_left_nopanel",
+    "ring_right": "betterarbored:block/cubedropper/acdropper_ring_right_nopanel",
+    "top":        "portalmod:block/cube_dropper_top"
+  }
+}
