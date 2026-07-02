@@ -41,6 +41,8 @@ public class ColorHandler extends BlockColorHandler {
         event.getBlockColors().register(blockColor, ModBlocks.ARBORED_BLACKPLATE_SLAB_8.get());
         event.getBlockColors().register(blockColor, ModBlocks.ARBORED_BLACKPLATE_9.get());
         event.getBlockColors().register(blockColor, ModBlocks.ARBORED_BLACKPLATE_SLAB_9.get());
+
+        //event.getBlockColors().register(blockColor, ModBlocks.ARBORED_BLACKPLATE_PLATFORM_1.get());
     }
 
     @OnlyIn(Dist.CLIENT)
@@ -68,5 +70,7 @@ public class ColorHandler extends BlockColorHandler {
         event.getItemColors().register(blockItemColor, ModBlocks.ARBORED_BLACKPLATE_SLAB_8.get());
         event.getItemColors().register(blockItemColor, ModBlocks.ARBORED_BLACKPLATE_9.get());
         event.getItemColors().register(blockItemColor, ModBlocks.ARBORED_BLACKPLATE_SLAB_9.get());
+
+        //event.getItemColors().register(blockItemColor, ModBlocks.ARBORED_BLACKPLATE_PLATFORM_1.get());
     }
 }

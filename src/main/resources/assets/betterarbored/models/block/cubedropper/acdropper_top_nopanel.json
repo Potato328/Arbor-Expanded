@@ -1,12 +1,12 @@
 {
-  "parent": "portalmod:block/template_cube_dropper_top",
+  "parent": "betterarbored:block/template_acdropper_top_nocase",
   "textures": {
-    "base_left":  "portalmod:block/cube_dropper_base_nopanel",
-    "base_right": "portalmod:block/cube_dropper_base_nopanel",
-    "bottom":     "betterarbored:block/cubedropper/acdropper_bottom_nopanel",
+    "base_left":  "betterarbored:block/cubedropper/acdropper_base_left",
+    "base_right": "betterarbored:block/cubedropper/acdropper_base_right",
+    "bottom":     "betterarbored:block/cubedropper/acdropper_bottom",
     "inside":     "portalmod:block/cube_dropper_inside",
-    "ring_left":  "betterarbored:block/cubedropper/acdropper_ring_left_nopanel",
-    "ring_right": "betterarbored:block/cubedropper/acdropper_ring_right_nopanel",
+    "ring_left":  "betterarbored:block/cubedropper/acdropper_ring_left_nocase",
+    "ring_right": "betterarbored:block/cubedropper/acdropper_ring_right_nocase",
     "top":        "portalmod:block/cube_dropper_top"
   }
 }

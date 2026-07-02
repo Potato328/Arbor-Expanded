@@ -34,24 +34,26 @@ public class BetterArbored {
     }
     private void doClientStuff(final FMLClientSetupEvent event) {
         event.enqueueWork(() -> {
-            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_1.get(), RenderType.translucent());
+            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_1.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_SLAB_1.get(), RenderType.cutout());
-            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_2.get(), RenderType.translucent());
+            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_2.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_SLAB_2.get(), RenderType.cutout());
-            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_3.get(), RenderType.translucent());
+            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_3.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_SLAB_3.get(), RenderType.cutout());
-            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_4.get(), RenderType.translucent());
+            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_4.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_SLAB_4.get(), RenderType.cutout());
-            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_5.get(), RenderType.translucent());
+            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_5.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_SLAB_5.get(), RenderType.cutout());
-            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_6.get(), RenderType.translucent());
+            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_6.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_SLAB_6.get(), RenderType.cutout());
-            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_7.get(), RenderType.translucent());
+            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_7.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_SLAB_7.get(), RenderType.cutout());
-            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_8.get(), RenderType.translucent());
+            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_8.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_SLAB_8.get(), RenderType.cutout());
-            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_9.get(), RenderType.translucent());
+            RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_9.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_SLAB_9.get(), RenderType.cutout());
+
+            //RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_BLACKPLATE_PLATFORM_1.get(), RenderType.cutout());
 
             RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_SUPER_BUTTON.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.ARBORED_SUPER_BUTTON2.get(), RenderType.cutout());

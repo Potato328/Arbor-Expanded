@@ -13,7 +13,12 @@ import java.util.Set;
 @Mixin(TileEntityTypeInit.class)
 public class TileEntityTypeInitMixin {
     @Inject(method="getChamberDoorBlocks", at=@At("HEAD"), remap = false)
-    private static void addArboredCamberDoorBlock(Set<Block> blocks, CallbackInfoReturnable<Set<Block>> cir) {
+    private static void addArboredChamberDoorBlocks(Set<Block> blocks, CallbackInfoReturnable<Set<Block>> cir) {
         blocks.add(ModBlocks.ARBORED_CHAMBER_DOOR.get());
+    }
+
+    @Inject(method="getCubeDropperBlocks", at=@At("HEAD"), remap = false)
+    private static void addArboredCubeDropperBlocks(Set<Block> blocks, CallbackInfoReturnable<Set<Block>> cir) {
+        //blocks.add(ModBlocks.ARBORED_CUBE_DROPPER.get());
     }
 }

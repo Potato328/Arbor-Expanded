@@ -3,7 +3,7 @@
   "textures": {
     "case":     "betterarbored:block/superbutton/asb_corner_3",
     "bottom":   "betterarbored:block/superbutton/asb_bottom_1",
-    "button":   "portalmod:block/super_button_top_persistent",
+    "button":   "betterarbored:block/superbutton/asb_top_persistent",
     "internals": "betterarbored:block/superbutton/asb_internals_icon"
   }
 }

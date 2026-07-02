@@ -6,6 +6,6 @@
     "ribs":     "portalmod:block/cube_dropper_ribs",
     "rim":      "betterarbored:block/cubedropper/acdropper_rim",
     "particle": "portalmod:block/cube_dropper_aperture",
-    "rimcover": "portalmod:block/cube_dropper_rim"
+	"case": "betterarbored:block/cubedropper/acdropper_rim_case"
   }
 }

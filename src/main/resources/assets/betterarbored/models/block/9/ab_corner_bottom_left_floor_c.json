@@ -2,7 +2,7 @@
   "parent": "portalmod:block/cube_corner_floor",
   "textures": {
     "top": "betterarbored:block/empty",
-    "bottom": "betterarbored:block/empty",
+    "bottom": "betterarbored:block/9/ab_ceiling_bottom_right_c",
     "side": "betterarbored:block/9/ab_c"
   }
 }

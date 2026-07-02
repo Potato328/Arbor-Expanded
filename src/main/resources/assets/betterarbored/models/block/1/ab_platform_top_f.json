@@ -1,0 +1,8 @@
+{
+  "parent": "portalmod:block/template_platform_top_tint",
+  "textures": {
+    "top": "betterarbored:block/1/ab_top_f",
+    "side": "betterarbored:block/empty",
+    "bottom": "betterarbored:block/empty"
+  }
+}

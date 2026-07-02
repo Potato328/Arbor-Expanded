@@ -1,7 +1,7 @@
 {
   "parent": "portalmod:block/cube_corner_floor",
   "textures": {
-    "top": "betterarbored:block/2/ab_panel_top_right_c",
+    "top": "betterarbored:block/empty",
     "bottom": "betterarbored:block/2/ab_ceiling_top_left_c",
     "side": "betterarbored:block/2/ab_c"
   }

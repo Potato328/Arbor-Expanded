@@ -14,6 +14,7 @@ import net.portalmod.common.sorted.button.SuperButtonBlock;
 import net.portalmod.common.sorted.cubedropper.CubeDropperBlock;
 import net.portalmod.common.sorted.door.ChamberDoorBlock;
 import net.portalmod.common.sorted.panel.PanelBlock;
+import net.portalmod.common.sorted.platform.PlatformBlock;
 
 import javax.naming.directory.ModificationItem;
 import java.util.function.Supplier;
@@ -49,6 +50,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> ARBORED_BLACKPLATE_SLAB_8 = registerBlock("arbored_blackplate_slab_8", () -> new SlabBlock(AbstractBlock.Properties.copy(Blocks.BLACK_CONCRETE)));
     public static final RegistryObject<Block> ARBORED_BLACKPLATE_9 = registerBlock("arbored_blackplate_9", () -> new PanelBlock(AbstractBlock.Properties.copy(Blocks.BLACK_CONCRETE)));
     public static final RegistryObject<Block> ARBORED_BLACKPLATE_SLAB_9 = registerBlock("arbored_blackplate_slab_9", () -> new SlabBlock(AbstractBlock.Properties.copy(Blocks.BLACK_CONCRETE)));
+
+    //Platforms
+    //public static final RegistryObject<Block> ARBORED_BLACKPLATE_PLATFORM_1 = registerBlock("arbored_blackplate_platform_1", () -> new PlatformBlock(AbstractBlock.Properties.copy(Blocks.BLACK_CONCRETE)));
 
     //Testing Elements
     //public static final RegistryObject<Block> ARBORED_CUBE_DROPPER = registerBlock("arbored_cube_dropper", () -> new CubeDropperBlock(AbstractBlock.Properties.copy(Blocks.STONE).noOcclusion()));
