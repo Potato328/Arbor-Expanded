@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "portalmodexpanded:block/2/ab_c",
+    "top": "portalmodexpanded:block/2/ab_top_c",
+    "bottom": "portalmodexpanded:block/2/ab_tiles_c"
+  }
+}

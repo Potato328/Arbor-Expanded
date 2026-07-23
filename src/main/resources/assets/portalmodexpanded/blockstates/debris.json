@@ -1,0 +1,13 @@
+{
+  "multipart": [
+    {"when": {"facing": "north", "size": 0}, "apply": {"model": "portalmodexpanded:block/dirty/small_debris"}},
+    {"when": {"facing": "east", "size": 0}, "apply": {"model": "portalmodexpanded:block/dirty/small_debris", "y": 90}},
+    {"when": {"facing": "south", "size": 0}, "apply": {"model": "portalmodexpanded:block/dirty/small_debris", "y": 180}},
+    {"when": {"facing": "west", "size": 0}, "apply": {"model": "portalmodexpanded:block/dirty/small_debris", "y": 270}},
+
+    {"when": {"facing": "north", "size": 1}, "apply": {"model": "portalmodexpanded:block/dirty/lrg_debris"}},
+    {"when": {"facing": "east", "size": 1}, "apply": {"model": "portalmodexpanded:block/dirty/lrg_debris", "y": 90}},
+    {"when": {"facing": "south", "size": 1}, "apply": {"model": "portalmodexpanded:block/dirty/lrg_debris", "y": 180}},
+    {"when": {"facing": "west", "size": 1}, "apply": {"model": "portalmodexpanded:block/dirty/lrg_debris", "y": 270}}
+  ]
+}

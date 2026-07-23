@@ -1,0 +1,28 @@
+{
+  "multipart": [
+    {"when":  {"state": "single"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_lunecast_2"}},
+
+    {"when":  {"state": "top"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_lunecast_2_top"}},
+    {"when":  {"state": "bottom"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_lunecast_2_bottom"}},
+
+    {"when": {"axis":  "z", "state":  "bottom_left"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_lunecast_2_bottom"}},
+    {"when": {"axis":  "z", "state":  "bottom_right"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_lunecast_1_bottom"}},
+    {"when": {"axis":  "z", "state":  "top_left"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_lunecast_2_top"}},
+    {"when": {"axis":  "z", "state":  "top_right"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_lunecast_1_top"}},
+
+    {"when": {"axis":  "x", "state":  "bottom_left"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_lunecast_2_bottom", "y": 90}},
+    {"when": {"axis":  "x", "state":  "bottom_right"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_lunecast_1_bottom", "y": 90}},
+    {"when": {"axis":  "x", "state":  "top_left"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_lunecast_2_top", "y": 90}},
+    {"when": {"axis":  "x", "state":  "top_right"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_lunecast_1_top", "y": 90}},
+
+    {"when": {"axis":  "x", "state":  "floor_bottom_left"}, "apply": {"model": "portalmod:block/arbored_lunecast_panel_floor_x_bottom_left", "y":  180, "uvlock": true}},
+    {"when": {"axis":  "x", "state":  "floor_bottom_right"}, "apply": {"model": "portalmod:block/arbored_lunecast_panel_floor_x_bottom_right", "y":  90, "uvlock": true}},
+    {"when": {"axis":  "x", "state":  "floor_top_left"}, "apply": {"model": "portalmod:block/arbored_lunecast_panel_floor_x_top_left", "y":  270, "uvlock": true}},
+    {"when": {"axis":  "x", "state":  "floor_top_right"}, "apply": {"model": "portalmod:block/arbored_lunecast_panel_floor_x_top_right", "uvlock": true}},
+
+    {"when": {"axis":  "z", "state":  "floor_bottom_left"}, "apply": {"model": "portalmod:block/arbored_lunecast_panel_floor_z_bottom_left", "y":  180, "uvlock": true}},
+    {"when": {"axis":  "z", "state":  "floor_bottom_right"}, "apply": {"model": "portalmod:block/arbored_lunecast_panel_floor_z_bottom_right", "y":  90, "uvlock": true}},
+    {"when": {"axis":  "z", "state":  "floor_top_left"}, "apply": {"model": "portalmod:block/arbored_lunecast_panel_floor_z_top_left", "y":  270, "uvlock": true}},
+    {"when": {"axis":  "z", "state":  "floor_top_right"}, "apply": {"model": "portalmod:block/arbored_lunecast_panel_floor_z_top_right", "uvlock": true}}
+  ]
+}

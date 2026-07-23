@@ -1,0 +1,7 @@
+{
+  "parent": "portalmod:block/cube_part_top",
+  "textures": {
+    "side": "portalmodexpanded:block/dirty/dirty_blackplate_top",
+    "top": "portalmodexpanded:block/dirty/dirty_blackplate_tiles"
+  }
+}

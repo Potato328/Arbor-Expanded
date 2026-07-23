@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterarbored:item/arbored_standing_button"
-  }
-}

@@ -1,0 +1,49 @@
+{
+	"format_version": "1.9.0",
+	"textures": {
+		"0": "portalmodexpanded:block/eroded/p1_fizzler_case_bottom",
+		"1": "portalmodexpanded:block/eroded/p1_fizzler_lights",
+		"2": "portalmodexpanded:block/eroded/p1_fizzler_back",
+		"3": "portalmodexpanded:block/eroded/p1_fizzler_field_bottom_left",
+		"4": "portalmodexpanded:block/eroded/p1_fizzler_field_bottom_right",
+		"particle": "portalmodexpanded:block/eroded/p1_fizzler_case_bottom"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 11],
+			"to": [11, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 0, 11]},
+			"faces": {
+				"north": {"uv": [10, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 5, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 6, 16], "texture": "#2"},
+				"west": {"uv": [5, 0, 0, 16], "texture": "#0"},
+				"down": {"uv": [5, 0, 10, 6], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.5, 0, 11.5],
+			"to": [10.5, 16, 14.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 12]},
+			"faces": {
+				"north": {"uv": [11, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [8, 0, 11, 16], "texture": "#1"},
+				"west": {"uv": [8, 0, 11, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8, 0, 0],
+			"to": [8, 16, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 0]},
+			"shade": false,
+			"faces": {
+				"north": {"uv": [2, 0, 2, 16], "texture": "#missing"},
+				"east": {"uv": [4, 0, 16, 16], "texture": "#3"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"west": {"uv": [0, 0, 12, 16], "texture": "#4"},
+				"up": {"uv": [0, 0, 0, 12], "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 12], "texture": "#missing"}
+			}
+		}
+	]
+}

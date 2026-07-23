@@ -1,0 +1,21 @@
+{
+  "comment": "I tried using this, but it didn't work for whatever reason. Using variants is easier than fixing this.",
+
+  "multipart": [
+    {"when": {"rotated": "false", "half": "lower", "axis": "y"}, "apply": {"model": "portalmodexpanded:block/eroded/eroded_fizzler_field_bottom", "x": 90, "y": 180}},
+    {"when": {"rotated": "false", "half": "upper", "axis": "y"}, "apply": {"model": "portalmodexpanded:block/eroded/eroded_fizzler_field_top", "x": 90, "y": 180}},
+    {"when": {"rotated": "true", "half": "lower", "axis": "y"}, "apply": {"model": "portalmodexpanded:block/eroded/eroded_fizzler_field_bottom", "x": 90, "y": 90}},
+    {"when": {"rotated": "true", "half": "upper", "axis": "y"}, "apply": {"model": "portalmodexpanded:block/eroded/eroded_fizzler_field_top", "x": 90, "y": 90}},
+
+    {"when": {"rotated": "false", "half": "lower", "axis": "x"}, "apply": {"model": "portalmodexpanded:block/eroded/eroded_fizzler_field_bottom", "y": 90}},
+    {"when": {"rotated": "false", "half": "lower", "axis": "z"}, "apply": {"model": "portalmodexpanded:block/eroded/eroded_fizzler_field_bottom"}},
+    {"when": {"rotated": "false", "half": "upper", "axis": "x"}, "apply": {"model": "portalmodexpanded:block/eroded/eroded_fizzler_field_top", "y": 90}},
+    {"when": {"rotated": "false", "half": "upper", "axis": "z"}, "apply": {"model": "portalmodexpanded:block/eroded/eroded_fizzler_field_top"}},
+
+    {"when": {"rotated": "true", "half": "lower", "axis": "x"}, "apply": {"model": "portalmodexpanded:block/eroded/eroded_fizzler_field_bottom_horizontal", "y": 270}},
+    {"when": {"rotated": "true", "half": "lower", "axis": "z"}, "apply": {"model": "portalmodexpanded:block/eroded/eroded_fizzler_field_bottom_horizontal", "y": 180}},
+    {"when": {"rotated": "true", "half": "upper", "axis": "x"}, "apply": {"model": "portalmodexpanded:block/eroded/eroded_fizzler_field_top_horizontal", "y": 270}},
+    {"when": {"rotated": "true", "half": "upper", "axis": "z"}, "apply": {"model": "portalmodexpanded:block/eroded/eroded_fizzler_field_top_horizontal", "y": 180}}
+  ]
+}
+

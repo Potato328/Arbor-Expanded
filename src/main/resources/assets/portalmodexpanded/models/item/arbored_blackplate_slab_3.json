@@ -1,0 +1,49 @@
+{
+  "parent": "portalmod:block/arbored_blackplate_slab",
+  "textures": {
+    "side": "portalmod:block/arbored_blackplate_tiles",
+    "top": "portalmod:block/arbored_blackplate_top",
+    "bottom": "portalmod:block/arbored_blackplate_tiles",
+    "c_side": "portalmodexpanded:block/empty",
+    "c_top": "portalmodexpanded:block/3/ab_top_c",
+    "c_bottom": "portalmodexpanded:block/3/ab_tiles_c",
+    "f_side": "portalmodexpanded:block/empty",
+    "f_top": "portalmodexpanded:block/3/ab_top_f",
+    "f_bottom": "portalmodexpanded:block/3/ab_tiles_f"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0], "to": [16, 8, 16],
+      "faces": {
+        "up": {"texture": "#top"},
+        "down": {"texture": "#bottom"},
+        "north": {"texture": "#side"},
+        "south": {"texture": "#side"},
+        "east": {"texture": "#side"},
+        "west": {"texture": "#side"}
+      }
+    },
+    {
+      "from": [-0.004, -0.004, -0.004], "to": [16.004, 8.004, 16.004],
+      "faces": {
+        "up": {"texture": "#c_top"},
+        "down": {"texture": "#c_bottom"},
+        "north": {"texture": "#c_side"},
+        "south": {"texture": "#c_side"},
+        "east": {"texture": "#c_side"},
+        "west": {"texture": "#c_side"}
+      }
+    },
+    {
+      "from": [-0.005, -0.005, -0.005], "to": [16.005, 8.005, 16.005],
+      "faces": {
+        "up": {"texture": "#f_top", "tintindex":  0},
+        "down": {"texture": "#f_bottom", "tintindex":  0},
+        "north": {"texture": "#f_side", "tintindex":  0},
+        "south": {"texture": "#f_side", "tintindex":  0},
+        "east": {"texture": "#f_side", "tintindex":  0},
+        "west": {"texture": "#f_side", "tintindex":  0}
+      }
+    }
+  ]
+}

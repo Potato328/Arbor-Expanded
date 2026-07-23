@@ -1,8 +1,0 @@
-{
-  "parent": "portalmod:block/cube_corner_floor_tint",
-  "textures": {
-    "top": "betterarbored:block/8/ab_panel_top_right_f",
-    "bottom": "betterarbored:block/8/ab_ceiling_top_left_f",
-    "side": "betterarbored:block/8/ab_f"
-  }
-}

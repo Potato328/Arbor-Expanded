@@ -1,0 +1,13 @@
+{
+  "multipart": [
+    {"when": {"type": "bottom"}, "apply":  {"model":  "portalmodexpanded:block/eroded/eroded_blackplate_slab_p1"}},
+    {"when": {"type": "bottom"}, "apply":  {"model":  "portalmodexpanded:block/eroded/eroded_blackplate_slab_p1"}},
+    {"when": {"type": "bottom"}, "apply":  {"model":  "portalmodexpanded:block/eroded/eroded_blackplate_slab_p1"}},
+    {"when": {"type": "top"}, "apply":  {"model":  "portalmodexpanded:block/eroded/eroded_blackplate_slab_top_p1"}},
+    {"when": {"type": "top"}, "apply":  {"model":  "portalmodexpanded:block/eroded/eroded_blackplate_slab_top_p1"}},
+    {"when": {"type": "top"}, "apply":  {"model":  "portalmodexpanded:block/eroded/eroded_blackplate_slab_top_p1"}},
+    {"when": {"type": "double"}, "apply":  {"model":  "portalmodexpanded:block/eroded/eroded_blackplate_tiles_p1"}},
+    {"when": {"type": "double"}, "apply":  {"model":  "portalmodexpanded:block/eroded/eroded_blackplate_tiles_p1"}},
+    {"when": {"type": "double"}, "apply":  {"model":  "portalmodexpanded:block/eroded/eroded_blackplate_tiles_p1"}}
+  ]
+}

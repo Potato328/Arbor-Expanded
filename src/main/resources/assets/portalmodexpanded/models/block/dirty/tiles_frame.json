@@ -1,0 +1,7 @@
+{
+  "parent": "portalmodexpanded:block/dirty/tiles_frame_block",
+  "textures": {
+    "base": "portalmod:block/iron_frame",
+    "inner": "portalmodexpanded:block/empty"
+  }
+}

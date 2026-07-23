@@ -1,0 +1,9 @@
+{
+  "parent": "portalmod:block/cube_corner_bottom_tint",
+  "textures": {
+    "bottom": "portalmodexpanded:block/empty",
+    "back": "portalmodexpanded:block/dirty/dirty_blackplate_bottom_f1",
+    "left": "portalmodexpanded:block/dirty/dirty_blackplate_bottom_left_f1",
+    "right": "portalmodexpanded:block/dirty/dirty_blackplate_bottom_right_f1"
+  }
+}

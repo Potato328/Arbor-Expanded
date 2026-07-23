@@ -1,0 +1,9 @@
+{
+  "parent": "portalmodexpanded:block/arbored_super_button_pressed",
+  "textures": {
+    "case":     "portalmodexpanded:block/superbutton/asb_corner_3_active",
+    "bottom":   "portalmodexpanded:block/superbutton/asb_bottom_1",
+    "button":   "portalmodexpanded:block/superbutton/asb_top_persistent",
+    "internals": "portalmodexpanded:block/superbutton/asb_internals_icon"
+  }
+}

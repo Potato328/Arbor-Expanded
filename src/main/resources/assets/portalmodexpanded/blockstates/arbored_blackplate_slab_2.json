@@ -1,0 +1,13 @@
+{
+  "multipart": [
+    {"when": {"type": "bottom"}, "apply":  {"model":  "portalmodexpanded:block/1/ab_slab"}},
+    {"when": {"type": "bottom"}, "apply":  {"model":  "portalmodexpanded:block/2/ab_slab_c"}},
+    {"when": {"type": "bottom"}, "apply":  {"model":  "portalmodexpanded:block/2/ab_slab_f"}},
+    {"when": {"type": "top"}, "apply":  {"model":  "portalmodexpanded:block/1/ab_slab_top"}},
+    {"when": {"type": "top"}, "apply":  {"model":  "portalmodexpanded:block/2/ab_slab_top_c"}},
+    {"when": {"type": "top"}, "apply":  {"model":  "portalmodexpanded:block/2/ab_slab_top_f"}},
+    {"when": {"type": "double"}, "apply":  {"model":  "portalmodexpanded:block/1/ab_tiles"}},
+    {"when": {"type": "double"}, "apply":  {"model":  "portalmodexpanded:block/2/ab_tiles_c"}},
+    {"when": {"type": "double"}, "apply":  {"model":  "portalmodexpanded:block/2/ab_tiles_f"}}
+  ]
+}

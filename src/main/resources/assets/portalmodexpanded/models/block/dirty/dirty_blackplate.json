@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "portalmodexpanded:block/dirty/dirty_blackplate",
+    "top": "portalmodexpanded:block/dirty/dirty_blackplate_tiles",
+    "bottom": "portalmodexpanded:block/dirty/dirty_blackplate_tiles"
+  }
+}

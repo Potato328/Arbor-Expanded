@@ -1,0 +1,8 @@
+{
+  "multipart": [
+    {"when": {"facing": "north"}, "apply": {"model": "portalmodexpanded:block/camerabase_p2"}},
+    {"when": {"facing": "south"}, "apply": {"model": "portalmodexpanded:block/camerabase_p2", "y": 180}},
+    {"when": {"facing": "east"}, "apply": {"model": "portalmodexpanded:block/camerabase_p2", "y": 90}},
+    {"when": {"facing": "west"}, "apply": {"model": "portalmodexpanded:block/camerabase_p2","y": 270}}
+  ]
+}

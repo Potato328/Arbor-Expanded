@@ -1,9 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "side": "betterarbored:block/placeholder",
-    "top": "betterarbored:block/placeholder",
-    "bottom": "betterarbored:block/placeholder"
-
-  }
-}

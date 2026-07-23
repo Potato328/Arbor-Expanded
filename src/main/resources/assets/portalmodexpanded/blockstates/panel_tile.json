@@ -1,0 +1,16 @@
+{"multipart": [
+  {"when": {"facing": "down", "beam": "false", "waterlogged": "false"}, "apply": {"model": "portalmodexpanded:block/dirty/panel_tile"}},
+  {"when": {"facing": "up", "beam": "false", "waterlogged": "false"}, "apply": {"model": "portalmodexpanded:block/dirty/panel_tile", "x": 180}},
+  {"when": {"facing": "north", "beam": "false", "waterlogged": "false"}, "apply": {"model": "portalmodexpanded:block/dirty/panel_tile", "x": 90, "y": 180}},
+  {"when": {"facing": "east", "beam": "false", "waterlogged": "false"}, "apply": {"model": "portalmodexpanded:block/dirty/panel_tile", "x": 90, "y": 270}},
+  {"when": {"facing": "south", "beam": "false", "waterlogged": "false"}, "apply": {"model": "portalmodexpanded:block/dirty/panel_tile", "x": 90}},
+  {"when": {"facing": "west", "beam": "false", "waterlogged": "false"}, "apply": {"model": "portalmodexpanded:block/dirty/panel_tile", "x": 90, "y": 90}},
+
+  {"when": {"facing": "down", "beam": "true", "waterlogged": "false"}, "apply": {"model": "portalmodexpanded:block/dirty/panel_tile_beam"}},
+  {"when": {"facing": "up", "beam": "true", "waterlogged": "false"}, "apply": {"model": "portalmodexpanded:block/dirty/panel_tile_beam", "x": 180}},
+  {"when": {"facing": "north", "beam": "true", "waterlogged": "false"}, "apply": {"model": "portalmodexpanded:block/dirty/panel_tile_beam", "x": 90, "y": 180}},
+  {"when": {"facing": "east", "beam": "true", "waterlogged": "false"}, "apply": {"model": "portalmodexpanded:block/dirty/panel_tile_beam", "x": 90, "y": 270}},
+  {"when": {"facing": "south", "beam": "true", "waterlogged": "false"}, "apply": {"model": "portalmodexpanded:block/dirty/panel_tile_beam", "x": 90}},
+  {"when": {"facing": "west", "beam": "true", "waterlogged": "false"}, "apply": {"model": "portalmodexpanded:block/dirty/panel_tile_beam", "x": 90, "y": 90}}
+  ]
+}

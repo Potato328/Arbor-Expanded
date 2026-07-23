@@ -1,0 +1,7 @@
+{
+  "parent": "portalmod:block/cube_part_bottom",
+  "textures": {
+    "side": "portalmodexpanded:block/dirty/dirty_lunecast_2_bottom",
+    "bottom": "portalmodexpanded:block/dirty/dirty_lunecast_tiles"
+  }
+}

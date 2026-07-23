@@ -1,0 +1,65 @@
+{
+  "multipart": [
+    {"when": {"size": 0, "facing": "north", "tile": 0}, "apply": {"model": "portalmodexpanded:block/dirty/blackplate/double_tile"}},
+    {"when": {"size": 0, "facing": "east", "tile": 0}, "apply": {"model": "portalmodexpanded:block/dirty/blackplate/double_tile", "y": 90}},
+    {"when": {"size": 0, "facing": "south", "tile": 0}, "apply": {"model": "portalmodexpanded:block/dirty/blackplate/double_tile", "y": 180}},
+    {"when": {"size": 0, "facing": "west", "tile": 0}, "apply": {"model": "portalmodexpanded:block/dirty/blackplate/double_tile", "y": 270}},
+
+    {"when": {"size": 0, "facing": "north", "tile": 1}, "apply": {"model": "portalmodexpanded:block/dirty/lunecast/double_tile"}},
+    {"when": {"size": 0, "facing": "east", "tile": 1}, "apply": {"model": "portalmodexpanded:block/dirty/lunecast/double_tile", "y": 90}},
+    {"when": {"size": 0, "facing": "south", "tile": 1}, "apply": {"model": "portalmodexpanded:block/dirty/lunecast/double_tile", "y": 180}},
+    {"when": {"size": 0, "facing": "west", "tile": 1}, "apply": {"model": "portalmodexpanded:block/dirty/lunecast/double_tile", "y": 270}},
+
+    {"when": {"size": 0, "facing": "north", "tile": 2}, "apply": {"model": "portalmodexpanded:block/dirty/glue_clean/double_tile"}},
+    {"when": {"size": 0, "facing": "east", "tile": 2}, "apply": {"model": "portalmodexpanded:block/dirty/glue_clean/double_tile", "y": 90}},
+    {"when": {"size": 0, "facing": "south", "tile": 2}, "apply": {"model": "portalmodexpanded:block/dirty/glue_clean/double_tile", "y": 180}},
+    {"when": {"size": 0, "facing": "west", "tile": 2}, "apply": {"model": "portalmodexpanded:block/dirty/glue_clean/double_tile", "y": 270}},
+
+    {"when": {"size": 0, "facing": "north", "tile": 3}, "apply": {"model": "portalmodexpanded:block/dirty/glue_dirty/double_tile"}},
+    {"when": {"size": 0, "facing": "east", "tile": 3}, "apply": {"model": "portalmodexpanded:block/dirty/glue_dirty/double_tile", "y": 90}},
+    {"when": {"size": 0, "facing": "south", "tile": 3}, "apply": {"model": "portalmodexpanded:block/dirty/glue_dirty/double_tile", "y": 180}},
+    {"when": {"size": 0, "facing": "west", "tile": 3}, "apply": {"model": "portalmodexpanded:block/dirty/glue_dirty/double_tile", "y": 270}},
+
+    {"when": {"size": 0, "facing": "north", "tile": 4}, "apply": {"model": "portalmodexpanded:block/dirty/green_moss/double_tile"}},
+    {"when": {"size": 0, "facing": "east", "tile": 4}, "apply": {"model": "portalmodexpanded:block/dirty/green_moss/double_tile", "y": 90}},
+    {"when": {"size": 0, "facing": "south", "tile": 4}, "apply": {"model": "portalmodexpanded:block/dirty/green_moss/double_tile", "y": 180}},
+    {"when": {"size": 0, "facing": "west", "tile": 4}, "apply": {"model": "portalmodexpanded:block/dirty/green_moss/double_tile", "y": 270}},
+
+    {"when": {"size": 0, "facing": "north", "tile": 5}, "apply": {"model": "portalmodexpanded:block/dirty/orange_moss/double_tile"}},
+    {"when": {"size": 0, "facing": "east", "tile": 5}, "apply": {"model": "portalmodexpanded:block/dirty/orange_moss/double_tile", "y": 90}},
+    {"when": {"size": 0, "facing": "south", "tile": 5}, "apply": {"model": "portalmodexpanded:block/dirty/orange_moss/double_tile", "y": 180}},
+    {"when": {"size": 0, "facing": "west", "tile": 5}, "apply": {"model": "portalmodexpanded:block/dirty/orange_moss/double_tile", "y": 270}},
+
+
+
+    {"when": {"size": 1, "facing": "north", "tile": 0}, "apply": {"model": "portalmodexpanded:block/dirty/blackplate/triple_tile"}},
+    {"when": {"size": 1, "facing": "east", "tile": 0}, "apply": {"model": "portalmodexpanded:block/dirty/blackplate/triple_tile", "y": 90}},
+    {"when": {"size": 1, "facing": "south", "tile": 0}, "apply": {"model": "portalmodexpanded:block/dirty/blackplate/triple_tile", "y": 180}},
+    {"when": {"size": 1, "facing": "west", "tile": 0}, "apply": {"model": "portalmodexpanded:block/dirty/blackplate/triple_tile", "y": 270}},
+
+    {"when": {"size": 1, "facing": "north", "tile": 1}, "apply": {"model": "portalmodexpanded:block/dirty/lunecast/triple_tile"}},
+    {"when": {"size": 1, "facing": "east", "tile": 1}, "apply": {"model": "portalmodexpanded:block/dirty/lunecast/triple_tile", "y": 90}},
+    {"when": {"size": 1, "facing": "south", "tile": 1}, "apply": {"model": "portalmodexpanded:block/dirty/lunecast/triple_tile", "y": 180}},
+    {"when": {"size": 1, "facing": "west", "tile": 1}, "apply": {"model": "portalmodexpanded:block/dirty/lunecast/triple_tile", "y": 270}},
+
+    {"when": {"size": 1, "facing": "north", "tile": 2}, "apply": {"model": "portalmodexpanded:block/dirty/glue_clean/triple_tile"}},
+    {"when": {"size": 1, "facing": "east", "tile": 2}, "apply": {"model": "portalmodexpanded:block/dirty/glue_clean/triple_tile", "y": 90}},
+    {"when": {"size": 1, "facing": "south", "tile": 2}, "apply": {"model": "portalmodexpanded:block/dirty/glue_clean/triple_tile", "y": 180}},
+    {"when": {"size": 1, "facing": "west", "tile": 2}, "apply": {"model": "portalmodexpanded:block/dirty/glue_clean/triple_tile", "y": 270}},
+
+    {"when": {"size": 1, "facing": "north", "tile": 3}, "apply": {"model": "portalmodexpanded:block/dirty/glue_dirty/triple_tile"}},
+    {"when": {"size": 1, "facing": "east", "tile": 3}, "apply": {"model": "portalmodexpanded:block/dirty/glue_dirty/triple_tile", "y": 90}},
+    {"when": {"size": 1, "facing": "south", "tile": 3}, "apply": {"model": "portalmodexpanded:block/dirty/glue_dirty/triple_tile", "y": 180}},
+    {"when": {"size": 1, "facing": "west", "tile": 3}, "apply": {"model": "portalmodexpanded:block/dirty/glue_dirty/triple_tile", "y": 270}},
+
+    {"when": {"size": 1, "facing": "north", "tile": 4}, "apply": {"model": "portalmodexpanded:block/dirty/green_moss/triple_tile"}},
+    {"when": {"size": 1, "facing": "east", "tile": 4}, "apply": {"model": "portalmodexpanded:block/dirty/green_moss/triple_tile", "y": 90}},
+    {"when": {"size": 1, "facing": "south", "tile": 4}, "apply": {"model": "portalmodexpanded:block/dirty/green_moss/triple_tile", "y": 180}},
+    {"when": {"size": 1, "facing": "west", "tile": 4}, "apply": {"model": "portalmodexpanded:block/dirty/green_moss/triple_tile", "y": 270}},
+
+    {"when": {"size": 1, "facing": "north", "tile": 5}, "apply": {"model": "portalmodexpanded:block/dirty/orange_moss/triple_tile"}},
+    {"when": {"size": 1, "facing": "east", "tile": 5}, "apply": {"model": "portalmodexpanded:block/dirty/orange_moss/triple_tile", "y": 90}},
+    {"when": {"size": 1, "facing": "south", "tile": 5}, "apply": {"model": "portalmodexpanded:block/dirty/orange_moss/triple_tile", "y": 180}},
+    {"when": {"size": 1, "facing": "west", "tile": 5}, "apply": {"model": "portalmodexpanded:block/dirty/orange_moss/triple_tile", "y": 270}}
+  ]
+}

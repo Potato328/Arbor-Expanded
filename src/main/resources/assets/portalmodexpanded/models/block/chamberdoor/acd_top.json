@@ -1,0 +1,8 @@
+{
+  "parent": "portalmod:/block/chamber_door_top",
+  "textures": {
+    "middle":   "portalmodexpanded:block/chamberdoor/acd_middle_top",
+    "side"  :   "portalmodexpanded:block/chamberdoor/acd_side_top",
+    "particle": "portalmodexpanded:block/chamberdoor/acd_side_bottom"
+  }
+}

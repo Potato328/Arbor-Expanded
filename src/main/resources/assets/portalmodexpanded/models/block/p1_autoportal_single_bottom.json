@@ -1,0 +1,35 @@
+{
+	"format_version": "1.9.0",
+	"textures": {
+		"0": "portalmodexpanded:block/dirty/dirty_blackplate",
+		"particle": "portalmodexpanded:block/dirty/dirty_blackplate"
+	},
+	"elements": [
+		{
+			"from": [-4, 0, 13],
+			"to": [-1, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-4, 0, 13]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 3, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 3, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 3, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 3, 3], "texture": "#0"},
+				"down": {"uv": [0, 0, 3, 3], "texture": "#0"}
+			}
+		},
+		{
+			"from": [17, 0, 13],
+			"to": [20, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [17, 0, 13]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 3, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 3, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 3, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 3, 3], "texture": "#0"},
+				"down": {"uv": [0, 0, 3, 3], "texture": "#0"}
+			}
+		}
+	]
+}

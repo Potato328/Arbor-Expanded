@@ -1,0 +1,35 @@
+{
+  "parent": "portalmod:block/arbored_blackplate",
+  "textures": {
+    "side": "portalmodexpanded:block/dirty/dirty_blackplate",
+    "top": "portalmodexpanded:block/dirty/dirty_blackplate_tiles",
+    "bottom": "portalmodexpanded:block/dirty/dirty_blackplate_tiles",
+    "f_side": "portalmodexpanded:block/empty",
+    "f_top": "portalmodexpanded:block/empty",
+    "f_bottom": "portalmodexpanded:block/empty"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0], "to": [16, 16, 16],
+      "faces": {
+        "up": {"texture": "#top"},
+        "down": {"texture": "#bottom"},
+        "north": {"texture": "#side"},
+        "south": {"texture": "#side"},
+        "east": {"texture": "#side"},
+        "west": {"texture": "#side"}
+      }
+    },
+    {
+      "from": [-0.005, -0.005, -0.005], "to": [16.005, 16.005, 16.005],
+      "faces": {
+        "up": {"texture": "#f_top", "tintindex":  0},
+        "down": {"texture": "#f_bottom", "tintindex":  0},
+        "north": {"texture": "#f_side", "tintindex":  0},
+        "south": {"texture": "#f_side", "tintindex":  0},
+        "east": {"texture": "#f_side", "tintindex":  0},
+        "west": {"texture": "#f_side", "tintindex":  0}
+      }
+    }
+  ]
+}

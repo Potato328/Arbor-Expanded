@@ -1,8 +1,0 @@
-{
-  "parent": "portalmod:block/slab_tint",
-  "textures": {
-    "side": "betterarbored:block/1/ab_tiles_f",
-    "bottom": "betterarbored:block/1/ab_f",
-    "top": "betterarbored:block/1/ab_f"
-  }
-}

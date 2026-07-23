@@ -1,0 +1,9 @@
+{
+  "parent": "portalmod:block/cube_corner_top",
+  "textures": {
+    "top": "portalmodexpanded:block/2/ab_top_c",
+    "back": "portalmodexpanded:block/2/ab_panel_top_c",
+    "left": "portalmodexpanded:block/2/ab_panel_top_left_c",
+    "right": "portalmodexpanded:block/empty"
+  }
+}

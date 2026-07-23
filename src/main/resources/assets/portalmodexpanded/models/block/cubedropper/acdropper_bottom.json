@@ -1,0 +1,11 @@
+{
+  "parent": "portalmodexpanded:block/template_acdropper_bottom",
+  "textures": {
+    "aperture": "portalmodexpanded:block/cubedropper/acdropper_aperture",
+    "glass":    "portalmod:block/cube_dropper_glass",
+    "ribs":     "portalmod:block/cube_dropper_ribs",
+    "rim":      "portalmodexpanded:block/cubedropper/acdropper_rim",
+    "particle": "portalmod:block/cube_dropper_aperture",
+	"case": "portalmodexpanded:block/cubedropper/acdropper_rim_case"
+  }
+}

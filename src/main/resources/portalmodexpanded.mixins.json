@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.potato328.portalmodexpanded.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "portalmodexpanded.refmap.json",
+  "mixins": [
+          "TileEntityTypeInitMixin"
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8"
+}

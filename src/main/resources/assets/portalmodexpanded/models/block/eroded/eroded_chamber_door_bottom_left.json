@@ -1,0 +1,9 @@
+{
+  "parent": "portalmod:/block/chamber_door_bottom_sign",
+  "textures": {
+    "middle":   "portalmodexpanded:block/eroded/p1_chamber_door_middle_bottom",
+    "side"  :   "portalmodexpanded:block/eroded/p1_chamber_door_bottom_left",
+    "sign":     "portalmodexpanded:block/eroded/p1_chamber_door_bottom_right",
+    "particle": "portalmodexpanded:block/eroded/p1_chamber_door_top_left"
+  }
+}

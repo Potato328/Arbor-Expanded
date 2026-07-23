@@ -1,8 +1,0 @@
-{
-  "parent": "portalmod:block/template_platform_top",
-  "textures": {
-    "top": "betterarbored:block/1/ab_top_c",
-    "side": "betterarbored:block/empty",
-    "bottom": "betterarbored:block/empty"
-  }
-}

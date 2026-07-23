@@ -1,8 +1,0 @@
-{
-  "parent": "portalmod:block/cube_bottom_top_tint",
-  "textures": {
-    "side": "betterarbored:block/6/ab_f",
-    "top": "betterarbored:block/6/ab_top_f",
-    "bottom": "betterarbored:block/6/ab_tiles_f"
-  }
-}

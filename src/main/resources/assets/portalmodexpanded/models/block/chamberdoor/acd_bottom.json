@@ -1,0 +1,9 @@
+{
+  "parent": "portalmod:/block/chamber_door_bottom",
+  "textures": {
+    "middle":   "portalmodexpanded:block/chamberdoor/acd_middle_bottom2",
+    "side":     "portalmodexpanded:block/chamberdoor/acd_side_bottom",
+    "bottom":   "portalmod:block/chamber_door_bottom",
+    "particle": "portalmodexpanded:block/chamberdoor/acd_side_bottom"
+  }
+}

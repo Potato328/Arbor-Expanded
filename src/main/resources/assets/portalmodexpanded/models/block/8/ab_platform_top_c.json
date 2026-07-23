@@ -1,0 +1,8 @@
+{
+  "parent": "portalmod:block/template_platform_top",
+  "textures": {
+    "top": "portalmodexpanded:block/8/ab_top_c",
+    "side": "portalmodexpanded:block/empty",
+    "bottom": "portalmodexpanded:block/empty"
+  }
+}

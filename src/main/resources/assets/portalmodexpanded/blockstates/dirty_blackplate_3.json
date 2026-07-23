@@ -1,0 +1,38 @@
+{
+  "multipart": [
+    {"when":  {"state": "single"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate"}},
+    {"when":  {"state": "single"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_f3"}},
+
+    {"when":  {"state": "top"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_top"}},
+    {"when":  {"state": "top"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_top_f3"}},
+    {"when":  {"state": "bottom"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_bottom"}},
+    {"when":  {"state": "bottom"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_bottom_f3"}},
+
+    {"when": {"axis":  "z", "state":  "bottom_left"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_bottom"}},
+    {"when": {"axis":  "z", "state":  "bottom_left"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_bottom_f3"}},
+    {"when": {"axis":  "z", "state":  "bottom_right"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_bottom", "y":  180}},
+    {"when": {"axis":  "z", "state":  "bottom_right"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_bottom_f3", "y":  180}},
+    {"when": {"axis":  "z", "state":  "top_left"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_top"}},
+    {"when": {"axis":  "z", "state":  "top_left"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_top_f3"}},
+    {"when": {"axis":  "z", "state":  "top_right"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_top", "y": 180}},
+    {"when": {"axis":  "z", "state":  "top_right"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_top_f3", "y": 180}},
+
+    {"when": {"axis":  "x", "state":  "bottom_left"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_bottom", "y": 90, "uvlock": true}},
+    {"when": {"axis":  "x", "state":  "bottom_left"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_bottom_f3", "y": 90, "uvlock": true}},
+    {"when": {"axis":  "x", "state":  "bottom_right"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_bottom", "y": 270, "uvlock": true}},
+    {"when": {"axis":  "x", "state":  "bottom_right"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_bottom_f3", "y": 270, "uvlock": true}},
+    {"when": {"axis":  "x", "state":  "top_left"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_top", "y": 90, "uvlock": true}},
+    {"when": {"axis":  "x", "state":  "top_left"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_top_f3", "y": 90, "uvlock": true}},
+    {"when": {"axis":  "x", "state":  "top_right"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_top", "y": 270, "uvlock": true}},
+    {"when": {"axis":  "x", "state":  "top_right"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_top_f3", "y": 270, "uvlock": true}},
+
+    {"when": {"axis":  "x|z", "state":  "floor_bottom_left"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_bottom_left_floor", "y":  180, "uvlock": true}},
+    {"when": {"axis":  "x|z", "state":  "floor_bottom_left"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_bottom_left_floor_f3", "y":  180, "uvlock": true}},
+    {"when": {"axis":  "x|z", "state":  "floor_bottom_right"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_bottom_right_floor", "y":  90, "uvlock": true}},
+    {"when": {"axis":  "x|z", "state":  "floor_bottom_right"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_bottom_right_floor_f3", "y":  90, "uvlock": true}},
+    {"when": {"axis":  "x|z", "state":  "floor_top_left"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_top_left_floor", "y":  270, "uvlock": true}},
+    {"when": {"axis":  "x|z", "state":  "floor_top_left"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_top_left_floor_f3", "y":  270, "uvlock": true}},
+    {"when": {"axis":  "x|z", "state":  "floor_top_right"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_top_right_floor", "uvlock": true}},
+    {"when": {"axis":  "x|z", "state":  "floor_top_right"}, "apply": {"model": "portalmodexpanded:block/dirty/dirty_blackplate_corner_top_right_floor_f3", "uvlock": true}}
+  ]
+}

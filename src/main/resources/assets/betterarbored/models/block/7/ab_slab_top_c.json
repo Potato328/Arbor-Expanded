@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "side": "betterarbored:block/7/ab_tiles_c",
-    "bottom": "betterarbored:block/7/ab_tiles_c",
-    "top": "betterarbored:block/7/ab_top_c"
-  }
-}

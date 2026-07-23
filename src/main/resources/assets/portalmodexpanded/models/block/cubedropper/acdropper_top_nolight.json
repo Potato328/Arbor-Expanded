@@ -1,0 +1,12 @@
+{
+  "parent": "portalmod:block/template_cube_dropper_top",
+  "textures": {
+    "base_left":  "portalmodexpanded:block/cubedropper/arbored_cube_dropper_base_left",
+    "base_right": "portalmodexpanded:block/cubedropper/arbored_cube_dropper_base_right",
+    "bottom":     "portalmodexpanded:block/cubedropper/arbored_cube_dropper_bottom",
+    "inside":     "portalmod:block/cube_dropper_inside",
+    "ring_left":  "portalmodexpanded:block/cubedropper/acdropper_ring_left_nolight",
+    "ring_right": "portalmodexpanded:block/cubedropper/acdropper_ring_right_nolight",
+    "top":        "portalmodexpanded:block/cubedropper/acdropper_top"
+  }
+}
